@@ -1,3 +1,4 @@
+{
   //* FORMATTERS *//
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -61,14 +62,16 @@
   ],
   "breadcrumbs.enabled": true,
   //* EDITOR *//
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.detectIndentation": false,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
+  "editor.guides.indentation": false,
   "editor.linkedEditing": true,
   "editor.matchBrackets": "never",
   "editor.minimap.enabled": false,
-  "editor.renderIndentGuides": false,
   "editor.renderWhitespace": "none",
   "editor.renderLineHighlight": "none",
   "editor.tabSize": 2,
@@ -78,6 +81,7 @@
     "comments": "#474747"
   },
   "eslint.packageManager": "yarn",
+  "editor.codeLens": false,
   "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
   // "emmet.showAbbreviationSuggestions": false,
   // "emmet.showExpandedAbbreviation": "never",
@@ -132,6 +136,7 @@
   "material-icon-theme.folders.theme": "specific",
   "material-icon-theme.hidesExplorerArrows": true,
   "npm.packageManager": "yarn",
+  //* PRETTIER *//
   "prettier.arrowParens": "avoid",
   "prettier.printWidth": 100,
   "prettier.semi": false,
@@ -142,9 +147,7 @@
   "workbench.colorTheme": "Dark+ Material",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
-  "editor.codeLens": false,
-  "cSpell.userWords": ["firestore", "testcafe", "todos"],
   "importSorter.importStringConfiguration.hasSemicolon": false,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active"
+  //* USER DICTIONARY *//
+  "cSpell.userWords": ["firestore", "testcafe", "todos"]
 }
